@@ -7,7 +7,11 @@
 
 ## Initialize submodule
 
-git submodule add https://github.com/your-username/shared-assets.git assets
+git submodule add git@github.com:ilopezgazpio/drone-shared-assets.git shared
+
+## Remove submodule
+
+git submodule deinit -f assets
 
 ## If cloning for the first time, run
 
