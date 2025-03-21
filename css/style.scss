@@ -36,33 +36,14 @@ $main-text-color: #252525 !default;
     justify-content: center;
     align-items: center;
     gap: 3px;
-
-    @include small {
-        display: inline-block;
-    }
-
+    display: inline-block;
 }
 
 .navigation-buttons {
-    margin-bottom: 1rem;
-
-    @include large {
-	float: right;
-	margin-top : 5rem;
-        margin-right: 15%;
-    }
-
-    @include medium {
-	float: right;
-	margin-top : 3rem;
-        margin-right: 5%;
-    }
-
-    @include small {
-	float: center;
-	margin-top : 1rem;
-        margin-right: 0%;
-    }
+    margin-bottom: 0.2m;
+    float: center;
+    margin-right: 0%;
+    margin-top : 1rem;
 }
 
 .btn-header {
@@ -185,19 +166,17 @@ $main-text-color: #252525 !default;
     background-color: white;
 
     @include large {
-	height: 6.5rem;
-        margin-right: 2rem;
+	height: 9.5rem;
     }
 
     @include medium {
 	height: 4rem;
-        margin-right: 1rem;
     }
 
     @include small {
 	height: 6.5rem;
     }
-    
+
     &:hover {
 	transform: scale(1.05);
     }
@@ -205,20 +184,10 @@ $main-text-color: #252525 !default;
 
 /* Language link */
 .language-switch {
-    
-    @include large {
-	margin-top : 5rem;
-    }
 
-    @include medium {
-	display : block;
-	margin-top : 0.5 rem;
-    }
+    display : block;
+    margin-top : 1rem;
 
-    @include small {
-	display : none;
-    }
-    
     &:hover {
 	transform: scale(1.1);
     }
@@ -226,7 +195,7 @@ $main-text-color: #252525 !default;
 }
 
 .language-link {
-    margin-left: auto; 
+    margin-left: auto;
     padding: 0 15px;
     text-decoration: none;
     color: inherit;
