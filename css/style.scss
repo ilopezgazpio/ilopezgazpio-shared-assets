@@ -154,6 +154,7 @@ $main-text-color: #252525 !default;
 
 /* Redefine header logo*/
 .header-logo-image {
+    margin-top: 1%;
     margin-left: 0%;
     padding-left: 0;
     padding-right: 0;
@@ -166,15 +167,15 @@ $main-text-color: #252525 !default;
     background-color: white;
 
     @include large {
-	height: 9.5rem;
+	height: 11rem;
     }
 
     @include medium {
-	height: 4rem;
+	height: 9rem;
     }
 
     @include small {
-	height: 6.5rem;
+	height: 7.5rem;
     }
 
     &:hover {
